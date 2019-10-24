@@ -44,7 +44,7 @@ class CircleTest
       // Well-formed circle
       radius = 1.0;
       underTest = new Circle(radius);
-      double expectedCircumference = 3.14159;
+      double expectedCircumference = 6.28318;
       assertEquals(expectedCircumference, 
             underTest.getCircumference(),
             0.00001,
@@ -71,9 +71,9 @@ class CircleTest
       // Well-formed circle
       radius = 1.0;
       underTest = new Circle(radius);
-      assertEquals("Circumference: 3.14", 
+      assertEquals("Circumference: 6.28", 
             underTest.getFormattedCircumference(),
-            "A well-formed circle with radius 1 should have had circumference 3.14");
+            "A well-formed circle with radius 1 should have had circumference 6.28.");
    }
 
    @Test
