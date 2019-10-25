@@ -36,4 +36,8 @@ public class Circle
       return "Area: " + formatNumber(getArea());
    }
    
+   public String toString() {
+      return getFormattedCircumference() + "\n" + 
+             getFormattedArea() + "\n";
+   }
 }
