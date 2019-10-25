@@ -30,14 +30,14 @@ class CircleTest
             "A well-formed circle with radius " + radius + " should have had area " + expectedArea);
       radius = 1.0;
       underTest = new Circle(radius);
-      double expectedArea = 3.14159;
+      expectedArea = 3.14159;
       assertEquals(expectedArea, 
             underTest.getArea(),
             0.00001,
             "A well-formed circle with radius 1 should have had area " + expectedArea);
       radius = 2.0;
       underTest = new Circle(radius);
-      double expectedArea = 12.56636;
+      expectedArea = 12.56637;
       assertEquals(expectedArea, 
             underTest.getArea(),
             0.00001,
@@ -65,14 +65,14 @@ class CircleTest
             "A well-formed circle with radius " + radius + " should have had circumference " + expectedCircumference);
       radius = 1.0;
       underTest = new Circle(radius);
-      double expectedCircumference = 6.28318;
+      expectedCircumference = 6.28318;
       assertEquals(expectedCircumference, 
             underTest.getCircumference(),
             0.00001,
             "A well-formed circle with radius 1 should have had circumference " + expectedCircumference);
       radius = 2.0;
       underTest = new Circle(radius);
-      double expectedCircumference = 12.56636;
+      expectedCircumference = 12.56637;
       assertEquals(expectedCircumference, 
             underTest.getCircumference(),
             0.00001,
